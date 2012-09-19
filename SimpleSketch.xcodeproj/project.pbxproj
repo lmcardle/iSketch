@@ -44,13 +44,15 @@
 		0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED22F160A599C000F5B2F /* SettingsViewController.m */; };
 		0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED230160A599C000F5B2F /* SettingsViewController.xib */; };
 		0C8ED234160A7A49000F5B2F /* erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED233160A7A49000F5B2F /* erase.png */; };
+		0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */; };
+		97158CC4521D4BF58725EA3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691E0FCF1EC40E7A46D092E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C44EE53160003620043D612 /* SimpleSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C44EE57160003630043D612 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0C44EE59160003630043D612 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0C44EE5B160003630043D612 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C44EE57160003630043D612 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C44EE59160003630043D612 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C44EE5B160003630043D612 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C44EE5F160003630043D612 /* SimpleSketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleSketch-Info.plist"; sourceTree = "<group>"; };
 		0C44EE61160003630043D612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C44EE63160003630043D612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,10 @@
 		0C8ED22F160A599C000F5B2F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		0C8ED230160A599C000F5B2F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		0C8ED233160A7A49000F5B2F /* erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erase.png; sourceTree = "<group>"; };
+		0C8ED25B160A8F2A000F5B2F /* SavedSketchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedSketchesViewController.h; sourceTree = "<group>"; };
+		0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedSketchesViewController.m; sourceTree = "<group>"; };
+		19640590A63544D1BD355E3B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9691E0FCF1EC40E7A46D092E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 				0C44EE58160003630043D612 /* UIKit.framework in Frameworks */,
 				0C44EE5A160003630043D612 /* Foundation.framework in Frameworks */,
 				0C44EE5C160003630043D612 /* CoreGraphics.framework in Frameworks */,
+				97158CC4521D4BF58725EA3C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,7 @@
 				0C44EE5D160003630043D612 /* SimpleSketch */,
 				0C44EE56160003630043D612 /* Frameworks */,
 				0C44EE54160003620043D612 /* Products */,
+				19640590A63544D1BD355E3B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +137,7 @@
 				0C44EE57160003630043D612 /* UIKit.framework */,
 				0C44EE59160003630043D612 /* Foundation.framework */,
 				0C44EE5B160003630043D612 /* CoreGraphics.framework */,
+				9691E0FCF1EC40E7A46D092E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,6 +145,8 @@
 		0C44EE5D160003630043D612 /* SimpleSketch */ = {
 			isa = PBXGroup;
 			children = (
+				0C8ED25B160A8F2A000F5B2F /* SavedSketchesViewController.h */,
+				0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */,
 				0C8ED22E160A599C000F5B2F /* SettingsViewController.h */,
 				0C8ED22F160A599C000F5B2F /* SettingsViewController.m */,
 				0C8ED230160A599C000F5B2F /* SettingsViewController.xib */,
@@ -205,6 +216,7 @@
 				0C44EE4F160003620043D612 /* Sources */,
 				0C44EE50160003620043D612 /* Frameworks */,
 				0C44EE51160003620043D612 /* Resources */,
+				1EF929C3F00D45408C4769BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +294,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF929C3F00D45408C4769BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C44EE4F160003620043D612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +320,7 @@
 				0C44EE68160003630043D612 /* simpleSketchAppDelegate.m in Sources */,
 				0C44EE6B160003630043D612 /* simpleSketchViewController.m in Sources */,
 				0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */,
+				0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +399,7 @@
 		};
 		0C44EE72160003630043D612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19640590A63544D1BD355E3B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleSketch/SimpleSketch-Prefix.pch";
@@ -380,6 +411,7 @@
 		};
 		0C44EE73160003630043D612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19640590A63544D1BD355E3B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleSketch/SimpleSketch-Prefix.pch";

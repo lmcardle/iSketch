@@ -1,0 +1,5 @@
+PODS:
+  - AQGridView (1.3)
+
+DEPENDENCIES:
+  - AQGridView

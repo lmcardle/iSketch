@@ -32,4 +32,5 @@
 
 - (IBAction)savePressed:(id)sender;
 - (IBAction)settingsPressed:(id)sender;
+- (IBAction)mySketchesPressed:(id)sender;
 @end

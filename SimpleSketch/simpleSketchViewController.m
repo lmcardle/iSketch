@@ -177,6 +177,9 @@
     [self presentModalViewController:settings animated:YES];
 }
 
+- (IBAction)mySketchesPressed:(id)sender {
+}
+
 -(void)closeSettings:(id)sender {
     brush = ((SettingsViewController*)sender).brush;
     opacity = ((SettingsViewController*)sender).opacity;
