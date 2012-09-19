@@ -138,11 +138,51 @@
 }
 
 - (IBAction)savePressed:(id)sender {
-    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Save to Photo Library", @"Send via Mail", nil];
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        UIGraphicsBeginImageContext(primarySketch.bounds.size);
+        [primarySketch.image drawInRect:CGRectMake(0, 0, primarySketch.frame.size.width, primarySketch.frame.size.height)];
+        UIImage *saveImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        UIImageWriteToSavedPhotosAlbum(saveImage, self, @selector(image:didFinishSavingWithError:withContext:), nil);
+        
+    } else if (buttonIndex == 1) {
+        //send image via email
+    }
+}
+
+-(void)image:(UIImage*)image didFinishSavingWithError:(NSError*)error withContext:(void*)context {
+    if (!error) {
+        UIAlertView *success = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Your sketch was saved successfully" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+        [success show];
+    } else {
+        UIAlertView *fail = [[UIAlertView alloc] initWithTitle:@"Error" message:@"There was an error in saving your sketch" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+        [fail show];
+    }
 }
 
 - (IBAction)settingsPressed:(id)sender {
+    
     SettingsViewController *settings = [SettingsViewController new];
+    settings.delegate = self;
+    settings.brush = brush;
+    settings.opacity = opacity;
+    settings.red = red;
+    settings.green = green;
+    settings.blue = blue;
     [self presentModalViewController:settings animated:YES];
+}
+
+-(void)closeSettings:(id)sender {
+    brush = ((SettingsViewController*)sender).brush;
+    opacity = ((SettingsViewController*)sender).opacity;
+    red = ((SettingsViewController*)sender).red;
+    green = ((SettingsViewController*)sender).green;
+    blue = ((SettingsViewController*)sender).blue;
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

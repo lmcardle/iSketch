@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SettingsViewController.h"
 
-@interface simpleSketchViewController : UIViewController {
+@interface simpleSketchViewController : UIViewController <SettingsViewControllerDelegate, UIActionSheetDelegate> {
     CGPoint lastPoint;
     CGFloat red;
     CGFloat green;

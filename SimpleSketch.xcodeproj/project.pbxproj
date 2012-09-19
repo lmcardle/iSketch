@@ -43,6 +43,7 @@
 		0C56D1AD160A5619008F944A /* black_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1AC160A5619008F944A /* black_color.png */; };
 		0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED22F160A599C000F5B2F /* SettingsViewController.m */; };
 		0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED230160A599C000F5B2F /* SettingsViewController.xib */; };
+		0C8ED234160A7A49000F5B2F /* erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED233160A7A49000F5B2F /* erase.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		0C8ED22E160A599C000F5B2F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		0C8ED22F160A599C000F5B2F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		0C8ED230160A599C000F5B2F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		0C8ED233160A7A49000F5B2F /* erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erase.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		0C44EE5E160003630043D612 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C8ED233160A7A49000F5B2F /* erase.png */,
 				0C56D1AC160A5619008F944A /* black_color.png */,
 				0C56D1A3160A4522008F944A /* white_color.png */,
 				0C56D1A4160A4522008F944A /* red_color.png */,
@@ -273,6 +276,7 @@
 				0C56D1A8160A4522008F944A /* blue_color.png in Resources */,
 				0C56D1AD160A5619008F944A /* black_color.png in Resources */,
 				0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */,
+				0C8ED234160A7A49000F5B2F /* erase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

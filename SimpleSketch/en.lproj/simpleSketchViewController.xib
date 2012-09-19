@@ -150,7 +150,7 @@
 					<object class="IBUIButton" id="564257292">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{128, 954}, {34, 174}}</string>
+						<string key="NSFrame">{{128, 950}, {34, 68}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="353931679"/>
@@ -167,7 +167,7 @@
 						<reference key="IBUINormalTitleShadowColor" ref="837513338"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Eraser.png</string>
+							<string key="NSResourceName">erase.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="303552838"/>
 						<reference key="IBUIFont" ref="687019042"/>
@@ -516,9 +516,9 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Eraser.png">{55, 167}</string>
 			<string key="black_color.png">{100, 50}</string>
 			<string key="blue_color.png">{100, 50}</string>
+			<string key="erase.png">{100, 59}</string>
 			<string key="red_color.png">{100, 50}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1498</string>
