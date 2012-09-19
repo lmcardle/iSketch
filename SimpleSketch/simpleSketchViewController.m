@@ -126,9 +126,14 @@
 }
 
 - (IBAction)eraserPressed:(id)sender {
+    red = 255/255;
+    green = 255/255;
+    blue = 255/255;
+    opacity = 1;
 }
 
 - (IBAction)resetPressed:(id)sender {
+    self.primarySketch.image = nil;
 }
 
 - (IBAction)savePressed:(id)sender {
