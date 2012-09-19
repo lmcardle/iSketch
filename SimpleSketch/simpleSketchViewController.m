@@ -7,6 +7,7 @@
 //
 
 #import "simpleSketchViewController.h"
+#import "SettingsViewController.h"
 
 @interface simpleSketchViewController ()
 
@@ -137,8 +138,11 @@
 }
 
 - (IBAction)savePressed:(id)sender {
+    
 }
 
 - (IBAction)settingsPressed:(id)sender {
+    SettingsViewController *settings = [SettingsViewController new];
+    [self presentModalViewController:settings animated:YES];
 }
 @end

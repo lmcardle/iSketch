@@ -41,6 +41,8 @@
 		0C56D1A7160A4522008F944A /* red_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1A4160A4522008F944A /* red_color.png */; };
 		0C56D1A8160A4522008F944A /* blue_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1A5160A4522008F944A /* blue_color.png */; };
 		0C56D1AD160A5619008F944A /* black_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1AC160A5619008F944A /* black_color.png */; };
+		0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED22F160A599C000F5B2F /* SettingsViewController.m */; };
+		0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED230160A599C000F5B2F /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,9 @@
 		0C56D1A4160A4522008F944A /* red_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_color.png; sourceTree = "<group>"; };
 		0C56D1A5160A4522008F944A /* blue_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_color.png; sourceTree = "<group>"; };
 		0C56D1AC160A5619008F944A /* black_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_color.png; sourceTree = "<group>"; };
+		0C8ED22E160A599C000F5B2F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0C8ED22F160A599C000F5B2F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0C8ED230160A599C000F5B2F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,9 @@
 		0C44EE5D160003630043D612 /* SimpleSketch */ = {
 			isa = PBXGroup;
 			children = (
+				0C8ED22E160A599C000F5B2F /* SettingsViewController.h */,
+				0C8ED22F160A599C000F5B2F /* SettingsViewController.m */,
+				0C8ED230160A599C000F5B2F /* SettingsViewController.xib */,
 				0C44EE66160003630043D612 /* simpleSketchAppDelegate.h */,
 				0C44EE67160003630043D612 /* simpleSketchAppDelegate.m */,
 				0C44EE69160003630043D612 /* simpleSketchViewController.h */,
@@ -264,6 +272,7 @@
 				0C56D1A7160A4522008F944A /* red_color.png in Resources */,
 				0C56D1A8160A4522008F944A /* blue_color.png in Resources */,
 				0C56D1AD160A5619008F944A /* black_color.png in Resources */,
+				0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 				0C44EE64160003630043D612 /* main.m in Sources */,
 				0C44EE68160003630043D612 /* simpleSketchAppDelegate.m in Sources */,
 				0C44EE6B160003630043D612 /* simpleSketchViewController.m in Sources */,
+				0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
