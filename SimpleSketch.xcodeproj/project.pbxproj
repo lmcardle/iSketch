@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C44EE58160003630043D612 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C44EE57160003630043D612 /* UIKit.framework */; };
+		0C44EE5A160003630043D612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C44EE59160003630043D612 /* Foundation.framework */; };
+		0C44EE5C160003630043D612 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C44EE5B160003630043D612 /* CoreGraphics.framework */; };
+		0C44EE62160003630043D612 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE60160003630043D612 /* InfoPlist.strings */; };
+		0C44EE64160003630043D612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44EE63160003630043D612 /* main.m */; };
+		0C44EE68160003630043D612 /* simpleSketchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44EE67160003630043D612 /* simpleSketchAppDelegate.m */; };
+		0C44EE6B160003630043D612 /* simpleSketchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44EE6A160003630043D612 /* simpleSketchViewController.m */; };
+		0C44EE6E160003630043D612 /* simpleSketchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE6C160003630043D612 /* simpleSketchViewController.xib */; };
+		0C44EE8B160006BB0043D612 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE75160006BB0043D612 /* b.png */; };
+		0C44EE8C160006BB0043D612 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE76160006BB0043D612 /* Black.png */; };
+		0C44EE8D160006BB0043D612 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE77160006BB0043D612 /* Blue.png */; };
+		0C44EE8E160006BB0043D612 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE78160006BB0043D612 /* Brown.png */; };
+		0C44EE8F160006BB0043D612 /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE79160006BB0043D612 /* Custom-Color.png */; };
+		0C44EE90160006BB0043D612 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7A160006BB0043D612 /* DarkGreen.png */; };
+		0C44EE91160006BB0043D612 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7B160006BB0043D612 /* DarkOrange.png */; };
+		0C44EE92160006BB0043D612 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7C160006BB0043D612 /* Eraser.png */; };
+		0C44EE93160006BB0043D612 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7D160006BB0043D612 /* g.png */; };
+		0C44EE94160006BB0043D612 /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7E160006BB0043D612 /* Grey.png */; };
+		0C44EE95160006BB0043D612 /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE7F160006BB0043D612 /* LightBlue.png */; };
+		0C44EE96160006BB0043D612 /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE80160006BB0043D612 /* LightGreen.png */; };
+		0C44EE97160006BB0043D612 /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE81160006BB0043D612 /* Opacity.png */; };
+		0C44EE98160006BB0043D612 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE82160006BB0043D612 /* r.png */; };
+		0C44EE99160006BB0043D612 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE83160006BB0043D612 /* Red.png */; };
+		0C44EE9A160006BB0043D612 /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE84160006BB0043D612 /* reset-Small.png */; };
+		0C44EE9B160006BB0043D612 /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE85160006BB0043D612 /* Save-Small.png */; };
+		0C44EE9C160006BB0043D612 /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE86160006BB0043D612 /* Setting-1.png */; };
+		0C44EE9D160006BB0043D612 /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE87160006BB0043D612 /* Setting-2.png */; };
+		0C44EE9E160006BB0043D612 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE88160006BB0043D612 /* thickness.png */; };
+		0C44EE9F160006BB0043D612 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE89160006BB0043D612 /* width.png */; };
+		0C44EEA0160006BB0043D612 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C44EE8A160006BB0043D612 /* Yellow.png */; };
+		0C56D1A6160A4522008F944A /* white_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1A3160A4522008F944A /* white_color.png */; };
+		0C56D1A7160A4522008F944A /* red_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1A4160A4522008F944A /* red_color.png */; };
+		0C56D1A8160A4522008F944A /* blue_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1A5160A4522008F944A /* blue_color.png */; };
+		0C56D1AD160A5619008F944A /* black_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D1AC160A5619008F944A /* black_color.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C44EE53160003620043D612 /* SimpleSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C44EE57160003630043D612 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C44EE59160003630043D612 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C44EE5B160003630043D612 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C44EE5F160003630043D612 /* SimpleSketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleSketch-Info.plist"; sourceTree = "<group>"; };
+		0C44EE61160003630043D612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C44EE63160003630043D612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C44EE65160003630043D612 /* SimpleSketch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleSketch-Prefix.pch"; sourceTree = "<group>"; };
+		0C44EE66160003630043D612 /* simpleSketchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleSketchAppDelegate.h; sourceTree = "<group>"; };
+		0C44EE67160003630043D612 /* simpleSketchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleSketchAppDelegate.m; sourceTree = "<group>"; };
+		0C44EE69160003630043D612 /* simpleSketchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleSketchViewController.h; sourceTree = "<group>"; };
+		0C44EE6A160003630043D612 /* simpleSketchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleSketchViewController.m; sourceTree = "<group>"; };
+		0C44EE6D160003630043D612 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/simpleSketchViewController.xib; sourceTree = "<group>"; };
+		0C44EE75160006BB0043D612 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		0C44EE76160006BB0043D612 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		0C44EE77160006BB0043D612 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		0C44EE78160006BB0043D612 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		0C44EE79160006BB0043D612 /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
+		0C44EE7A160006BB0043D612 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		0C44EE7B160006BB0043D612 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		0C44EE7C160006BB0043D612 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		0C44EE7D160006BB0043D612 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		0C44EE7E160006BB0043D612 /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
+		0C44EE7F160006BB0043D612 /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
+		0C44EE80160006BB0043D612 /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		0C44EE81160006BB0043D612 /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
+		0C44EE82160006BB0043D612 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		0C44EE83160006BB0043D612 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		0C44EE84160006BB0043D612 /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
+		0C44EE85160006BB0043D612 /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
+		0C44EE86160006BB0043D612 /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
+		0C44EE87160006BB0043D612 /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
+		0C44EE88160006BB0043D612 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
+		0C44EE89160006BB0043D612 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		0C44EE8A160006BB0043D612 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		0C56D1A3160A4522008F944A /* white_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_color.png; sourceTree = "<group>"; };
+		0C56D1A4160A4522008F944A /* red_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_color.png; sourceTree = "<group>"; };
+		0C56D1A5160A4522008F944A /* blue_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_color.png; sourceTree = "<group>"; };
+		0C56D1AC160A5619008F944A /* black_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_color.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C44EE50160003620043D612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C44EE58160003630043D612 /* UIKit.framework in Frameworks */,
+				0C44EE5A160003630043D612 /* Foundation.framework in Frameworks */,
+				0C44EE5C160003630043D612 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C44EE48160003620043D612 = {
+			isa = PBXGroup;
+			children = (
+				0C44EE5D160003630043D612 /* SimpleSketch */,
+				0C44EE56160003630043D612 /* Frameworks */,
+				0C44EE54160003620043D612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C44EE54160003620043D612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C44EE53160003620043D612 /* SimpleSketch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C44EE56160003630043D612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C44EE57160003630043D612 /* UIKit.framework */,
+				0C44EE59160003630043D612 /* Foundation.framework */,
+				0C44EE5B160003630043D612 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C44EE5D160003630043D612 /* SimpleSketch */ = {
+			isa = PBXGroup;
+			children = (
+				0C44EE66160003630043D612 /* simpleSketchAppDelegate.h */,
+				0C44EE67160003630043D612 /* simpleSketchAppDelegate.m */,
+				0C44EE69160003630043D612 /* simpleSketchViewController.h */,
+				0C44EE6A160003630043D612 /* simpleSketchViewController.m */,
+				0C44EE6C160003630043D612 /* simpleSketchViewController.xib */,
+				0C44EE5E160003630043D612 /* Supporting Files */,
+			);
+			path = SimpleSketch;
+			sourceTree = "<group>";
+		};
+		0C44EE5E160003630043D612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C56D1AC160A5619008F944A /* black_color.png */,
+				0C56D1A3160A4522008F944A /* white_color.png */,
+				0C56D1A4160A4522008F944A /* red_color.png */,
+				0C56D1A5160A4522008F944A /* blue_color.png */,
+				0C44EE74160006BB0043D612 /* Graphics */,
+				0C44EE5F160003630043D612 /* SimpleSketch-Info.plist */,
+				0C44EE60160003630043D612 /* InfoPlist.strings */,
+				0C44EE63160003630043D612 /* main.m */,
+				0C44EE65160003630043D612 /* SimpleSketch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C44EE74160006BB0043D612 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0C44EE75160006BB0043D612 /* b.png */,
+				0C44EE76160006BB0043D612 /* Black.png */,
+				0C44EE77160006BB0043D612 /* Blue.png */,
+				0C44EE78160006BB0043D612 /* Brown.png */,
+				0C44EE79160006BB0043D612 /* Custom-Color.png */,
+				0C44EE7A160006BB0043D612 /* DarkGreen.png */,
+				0C44EE7B160006BB0043D612 /* DarkOrange.png */,
+				0C44EE7C160006BB0043D612 /* Eraser.png */,
+				0C44EE7D160006BB0043D612 /* g.png */,
+				0C44EE7E160006BB0043D612 /* Grey.png */,
+				0C44EE7F160006BB0043D612 /* LightBlue.png */,
+				0C44EE80160006BB0043D612 /* LightGreen.png */,
+				0C44EE81160006BB0043D612 /* Opacity.png */,
+				0C44EE82160006BB0043D612 /* r.png */,
+				0C44EE83160006BB0043D612 /* Red.png */,
+				0C44EE84160006BB0043D612 /* reset-Small.png */,
+				0C44EE85160006BB0043D612 /* Save-Small.png */,
+				0C44EE86160006BB0043D612 /* Setting-1.png */,
+				0C44EE87160006BB0043D612 /* Setting-2.png */,
+				0C44EE88160006BB0043D612 /* thickness.png */,
+				0C44EE89160006BB0043D612 /* width.png */,
+				0C44EE8A160006BB0043D612 /* Yellow.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C44EE52160003620043D612 /* SimpleSketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C44EE71160003630043D612 /* Build configuration list for PBXNativeTarget "SimpleSketch" */;
+			buildPhases = (
+				0C44EE4F160003620043D612 /* Sources */,
+				0C44EE50160003620043D612 /* Frameworks */,
+				0C44EE51160003620043D612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSketch;
+			productName = SimpleSketch;
+			productReference = 0C44EE53160003620043D612 /* SimpleSketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C44EE4A160003620043D612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = simpleSketch;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = MediaMarqer;
+			};
+			buildConfigurationList = 0C44EE4D160003620043D612 /* Build configuration list for PBXProject "SimpleSketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C44EE48160003620043D612;
+			productRefGroup = 0C44EE54160003620043D612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C44EE52160003620043D612 /* SimpleSketch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C44EE51160003620043D612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C44EE62160003630043D612 /* InfoPlist.strings in Resources */,
+				0C44EE6E160003630043D612 /* simpleSketchViewController.xib in Resources */,
+				0C44EE8B160006BB0043D612 /* b.png in Resources */,
+				0C44EE8C160006BB0043D612 /* Black.png in Resources */,
+				0C44EE8D160006BB0043D612 /* Blue.png in Resources */,
+				0C44EE8E160006BB0043D612 /* Brown.png in Resources */,
+				0C44EE8F160006BB0043D612 /* Custom-Color.png in Resources */,
+				0C44EE90160006BB0043D612 /* DarkGreen.png in Resources */,
+				0C44EE91160006BB0043D612 /* DarkOrange.png in Resources */,
+				0C44EE92160006BB0043D612 /* Eraser.png in Resources */,
+				0C44EE93160006BB0043D612 /* g.png in Resources */,
+				0C44EE94160006BB0043D612 /* Grey.png in Resources */,
+				0C44EE95160006BB0043D612 /* LightBlue.png in Resources */,
+				0C44EE96160006BB0043D612 /* LightGreen.png in Resources */,
+				0C44EE97160006BB0043D612 /* Opacity.png in Resources */,
+				0C44EE98160006BB0043D612 /* r.png in Resources */,
+				0C44EE99160006BB0043D612 /* Red.png in Resources */,
+				0C44EE9A160006BB0043D612 /* reset-Small.png in Resources */,
+				0C44EE9B160006BB0043D612 /* Save-Small.png in Resources */,
+				0C44EE9C160006BB0043D612 /* Setting-1.png in Resources */,
+				0C44EE9D160006BB0043D612 /* Setting-2.png in Resources */,
+				0C44EE9E160006BB0043D612 /* thickness.png in Resources */,
+				0C44EE9F160006BB0043D612 /* width.png in Resources */,
+				0C44EEA0160006BB0043D612 /* Yellow.png in Resources */,
+				0C56D1A6160A4522008F944A /* white_color.png in Resources */,
+				0C56D1A7160A4522008F944A /* red_color.png in Resources */,
+				0C56D1A8160A4522008F944A /* blue_color.png in Resources */,
+				0C56D1AD160A5619008F944A /* black_color.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C44EE4F160003620043D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C44EE64160003630043D612 /* main.m in Sources */,
+				0C44EE68160003630043D612 /* simpleSketchAppDelegate.m in Sources */,
+				0C44EE6B160003630043D612 /* simpleSketchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C44EE60160003630043D612 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C44EE61160003630043D612 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C44EE6C160003630043D612 /* simpleSketchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C44EE6D160003630043D612 /* en */,
+			);
+			name = simpleSketchViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C44EE6F160003630043D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0C44EE70160003630043D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C44EE72160003630043D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleSketch/SimpleSketch-Prefix.pch";
+				INFOPLIST_FILE = "SimpleSketch/SimpleSketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C44EE73160003630043D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleSketch/SimpleSketch-Prefix.pch";
+				INFOPLIST_FILE = "SimpleSketch/SimpleSketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C44EE4D160003620043D612 /* Build configuration list for PBXProject "SimpleSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C44EE6F160003630043D612 /* Debug */,
+				0C44EE70160003630043D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C44EE71160003630043D612 /* Build configuration list for PBXNativeTarget "SimpleSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C44EE72160003630043D612 /* Debug */,
+				0C44EE73160003630043D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C44EE4A160003620043D612 /* Project object */;
+}
