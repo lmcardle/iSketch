@@ -45,6 +45,8 @@
 		0C8ED232160A599C000F5B2F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED230160A599C000F5B2F /* SettingsViewController.xib */; };
 		0C8ED234160A7A49000F5B2F /* erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ED233160A7A49000F5B2F /* erase.png */; };
 		0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */; };
+		0C8ED261160A91E5000F5B2F /* SavedSketchesIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED260160A91E5000F5B2F /* SavedSketchesIconCell.m */; };
+		0C8ED263160A93ED000F5B2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8ED262160A93ED000F5B2F /* QuartzCore.framework */; };
 		97158CC4521D4BF58725EA3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691E0FCF1EC40E7A46D092E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,9 @@
 		0C8ED233160A7A49000F5B2F /* erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erase.png; sourceTree = "<group>"; };
 		0C8ED25B160A8F2A000F5B2F /* SavedSketchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedSketchesViewController.h; sourceTree = "<group>"; };
 		0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedSketchesViewController.m; sourceTree = "<group>"; };
+		0C8ED25F160A91E5000F5B2F /* SavedSketchesIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedSketchesIconCell.h; sourceTree = "<group>"; };
+		0C8ED260160A91E5000F5B2F /* SavedSketchesIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedSketchesIconCell.m; sourceTree = "<group>"; };
+		0C8ED262160A93ED000F5B2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		19640590A63544D1BD355E3B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9691E0FCF1EC40E7A46D092E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8ED263160A93ED000F5B2F /* QuartzCore.framework in Frameworks */,
 				0C44EE58160003630043D612 /* UIKit.framework in Frameworks */,
 				0C44EE5A160003630043D612 /* Foundation.framework in Frameworks */,
 				0C44EE5C160003630043D612 /* CoreGraphics.framework in Frameworks */,
@@ -134,6 +140,7 @@
 		0C44EE56160003630043D612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C8ED262160A93ED000F5B2F /* QuartzCore.framework */,
 				0C44EE57160003630043D612 /* UIKit.framework */,
 				0C44EE59160003630043D612 /* Foundation.framework */,
 				0C44EE5B160003630043D612 /* CoreGraphics.framework */,
@@ -156,6 +163,8 @@
 				0C44EE6A160003630043D612 /* simpleSketchViewController.m */,
 				0C44EE6C160003630043D612 /* simpleSketchViewController.xib */,
 				0C44EE5E160003630043D612 /* Supporting Files */,
+				0C8ED25F160A91E5000F5B2F /* SavedSketchesIconCell.h */,
+				0C8ED260160A91E5000F5B2F /* SavedSketchesIconCell.m */,
 			);
 			path = SimpleSketch;
 			sourceTree = "<group>";
@@ -321,6 +330,7 @@
 				0C44EE6B160003630043D612 /* simpleSketchViewController.m in Sources */,
 				0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */,
 				0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */,
+				0C8ED261160A91E5000F5B2F /* SavedSketchesIconCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
