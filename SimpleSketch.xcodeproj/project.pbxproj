@@ -47,6 +47,7 @@
 		0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */; };
 		0C8ED261160A91E5000F5B2F /* SavedSketchesIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED260160A91E5000F5B2F /* SavedSketchesIconCell.m */; };
 		0C8ED263160A93ED000F5B2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8ED262160A93ED000F5B2F /* QuartzCore.framework */; };
+		0C8ED266160A979A000F5B2F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C8ED264160A979A000F5B2F /* Model.xcdatamodeld */; };
 		97158CC4521D4BF58725EA3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691E0FCF1EC40E7A46D092E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,7 @@
 		0C8ED25F160A91E5000F5B2F /* SavedSketchesIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedSketchesIconCell.h; sourceTree = "<group>"; };
 		0C8ED260160A91E5000F5B2F /* SavedSketchesIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedSketchesIconCell.m; sourceTree = "<group>"; };
 		0C8ED262160A93ED000F5B2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C8ED265160A979A000F5B2F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		19640590A63544D1BD355E3B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9691E0FCF1EC40E7A46D092E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,6 +158,7 @@
 				0C8ED25C160A8F2A000F5B2F /* SavedSketchesViewController.m */,
 				0C8ED22E160A599C000F5B2F /* SettingsViewController.h */,
 				0C8ED22F160A599C000F5B2F /* SettingsViewController.m */,
+				0C8ED264160A979A000F5B2F /* Model.xcdatamodeld */,
 				0C8ED230160A599C000F5B2F /* SettingsViewController.xib */,
 				0C44EE66160003630043D612 /* simpleSketchAppDelegate.h */,
 				0C44EE67160003630043D612 /* simpleSketchAppDelegate.m */,
@@ -331,6 +334,7 @@
 				0C8ED231160A599C000F5B2F /* SettingsViewController.m in Sources */,
 				0C8ED25D160A8F2A000F5B2F /* SavedSketchesViewController.m in Sources */,
 				0C8ED261160A91E5000F5B2F /* SavedSketchesIconCell.m in Sources */,
+				0C8ED266160A979A000F5B2F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0C8ED264160A979A000F5B2F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0C8ED265160A979A000F5B2F /* Model.xcdatamodel */,
+			);
+			currentVersion = 0C8ED265160A979A000F5B2F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0C44EE4A160003620043D612 /* Project object */;
 }
